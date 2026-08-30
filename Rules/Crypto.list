@@ -1,0 +1,73 @@
+# ============================================================
+# XS-RulesPlus
+# Crypto.list
+#
+# Crypto Exchange / 加密货币交易所服务规则
+#
+# 策略：
+#   DIRECT
+#
+# 涵盖：
+#   1. Binance / 币安
+#   2. OKX / 欧易
+# ============================================================
+
+
+# ============================================================
+# Binance / 币安
+# ============================================================
+
+# 域名后缀
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.org
+
+# Spot REST API
+DOMAIN,api.binance.com
+DOMAIN,api1.binance.com
+DOMAIN,api2.binance.com
+DOMAIN,api3.binance.com
+DOMAIN,api4.binance.com
+
+# Spot WebSocket
+DOMAIN,stream.binance.com
+DOMAIN,ws-api.binance.com
+
+# Futures REST
+DOMAIN,fapi.binance.com
+DOMAIN,dapi.binance.com
+
+# Futures WebSocket / Market Data
+DOMAIN,fstream.binance.com
+DOMAIN,data-stream.binance.com
+DOMAIN,data.binance.com
+
+
+# ============================================================
+# OKX / 欧易
+# ============================================================
+
+# 官方域名
+DOMAIN-SUFFIX,okx.com
+
+# 官方推荐 REST API
+DOMAIN,openapi.okx.com
+
+# 主站 / REST
+DOMAIN,www.okx.com
+DOMAIN,api.okx.com
+
+# WebSocket
+DOMAIN,ws.okx.com
+DOMAIN,wsaws.okx.com
+DOMAIN,wspap.okx.com
+
+# Web3 / DEX API
+DOMAIN,wsdex.okx.com
+DOMAIN,wsweb3eea.okx.com
+DOMAIN,wsweb3us.okx.com
+
+# 区域站点
+DOMAIN,us.okx.com
+DOMAIN,eea.okx.com
+DOMAIN,tr.okx.com
