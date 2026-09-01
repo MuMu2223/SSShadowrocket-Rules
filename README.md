@@ -263,6 +263,7 @@ RULE-SET,https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/
 - 发现漏拦或误杀，可自行在规则前部补充，或反馈具体域名
 - 本规则仅供学习与个人使用，请遵守当地法律法规
 
+---
 
 ## 3、🍎 APNs 苹果推送服务优化模块 (Apns.module)
 
