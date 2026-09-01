@@ -1,0 +1,31 @@
+#!name=Apple APNs Direct
+#!desc=Apple 推送及相关网络基础设施直连模块，提升大陆网络环境下 APNs、iMessage、FaceTime 等 Apple 基础服务稳定性
+#!author=OpenAI
+#!homepage=https://support.apple.com/
+#!icon=https://www.apple.com/favicon.ico
+
+[Rule]
+
+# ===== Apple Push Notification Service =====
+# Apple 推送服务，建议直连，避免代理节点切换/断线影响长连接
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+
+# ===== Apple / Akamai DNS & Edge Infrastructure =====
+# Apple 部分服务可能使用 Akamai 基础设施
+DOMAIN-SUFFIX,akadns.net,DIRECT
+DOMAIN-KEYWORD,apple.com.edgekey.net,DIRECT
+
+# ===== Apple IPv4 =====
+# Apple 部分服务及 APNs 相关 IPv4 网段
+IP-CIDR,17.249.0.0/16,DIRECT,no-resolve
+IP-CIDR,17.252.0.0/16,DIRECT,no-resolve
+IP-CIDR,17.57.144.0/22,DIRECT,no-resolve
+IP-CIDR,17.188.128.0/18,DIRECT,no-resolve
+IP-CIDR,17.188.20.0/23,DIRECT,no-resolve
+
+# ===== Apple IPv6 =====
+# Apple 相关 IPv6 网段
+IP-CIDR6,2620:149:a44::/48,DIRECT,no-resolve
+IP-CIDR6,2403:300:a42::/48,DIRECT,no-resolve
+IP-CIDR6,2403:300:a51::/48,DIRECT,no-resolve
+IP-CIDR6,2a01:b740:a42::/48,DIRECT,no-resolve
