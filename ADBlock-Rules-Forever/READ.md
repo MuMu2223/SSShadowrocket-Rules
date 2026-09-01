@@ -17,8 +17,10 @@
 
 在 Shadowrocket 中添加模块时，请使用以下 URL 链接：
 
-```text
 https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/ADBlock-Rules-Forever/ADBlock-Rules.conf
+
+
+```text
 
 ---
 
