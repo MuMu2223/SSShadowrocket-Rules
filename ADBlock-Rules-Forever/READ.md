@@ -1,34 +1,21 @@
-# Shadowrocket 去广告配置文件 (AdBlock Only)
+# 🛡️ Shadowrocket 纯去广告模块 (AdBlock Only Module)
 
-## 📌 项目特点
-
-- **纯粹去广告**：仅包含域名拦截规则（`REJECT`），不包含任何代理分流、科学上网策略节点。
-- **开箱即用**：适合作为独立配置导入，或与其他代理规则合并/叠加使用。
-- **安全无侵入**：仅基于域名匹配过滤广告及追踪域名，**无需开启 MITM / 安装 CA 根证书**。
-- **定期更新**：同步上游开源去广告列表（如 EasyList China 等）。
+本项目基于 [Shadowrocket-ADBlock-Rules-Forever](https://github.com/johnshall/Shadowrocket-ADBlock-Rules-Forever) 进行 Fork 与个人日常维护，专为 **Shadowrocket（小火箭）** 提供独立、纯粹的广告拦截模块。
 
 ---
 
-## 🔗 规则订阅链接
+## 📌 项目特点
 
-在 Shadowrocket 中添加配置时直接输入以下 URL：
+* 🎯 **纯粹去广告**：仅包含域名拦截规则（`REJECT`），不含任何节点策略或翻墙分流。
+* 🧩 **无缝叠加使用**：作为**模块（Module）**引入，能够完美叠加在现有的主配置文件（如 `lazy_group.conf`）之上。
+* 🔒 **安全且原生**：仅基于 DNS/域名匹配过滤广告与追踪脚本，**无需开启 MITM，无需安装 CA 根证书**，零隐私安全风险。
+* ⚡ **低耗能无感**：本地高效算法匹配，拦截广告反而能节省流量与提升页面加载速度。
 
+---
 
+## 🔗 模块订阅链接
 
-🛠️ 使用教程
-方式一：作为主配置文件导入
-打开 Shadowrocket App。
+在 Shadowrocket 中添加模块时，请使用以下 URL 链接：
 
-切换到底部菜单的 「配置」 页面。
-
-点击右上角的 + 号，粘贴上面的规则订阅链接并点击 「下载」。
-
-下载完成后，在列表中点击该配置并选择 「使用」。
-
-方式二：作为远程规则模块/模块引用
-如果你已有成熟的节点分流配置，可以将此链接作为规则集（Rule-Set）或模块添加到现有配置中，只补充去广告能力。
-
-⚠️ 免责声明与说明
-本仓库规则均收集整理自网络开源项目，仅供个人研究与学习使用。
-
-规则通过域名匹配拦截广告，个别情况下可能会存在误杀（如部分正常页面图片或功能无法加载）。若遇到问题可临时切换或提交 Issue。
+```text
+https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/ADBlock-Rules-Forever/ADBlock-Rules.conf
