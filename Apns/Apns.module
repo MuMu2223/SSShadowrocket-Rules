@@ -1,5 +1,5 @@
 #!name=Apple APNs Direct
-#!desc=Apple 推送及相关网络基础设施直连模块，提升大陆网络环境下 APNs、iMessage、FaceTime 等 Apple 基础服务稳定性
+#!desc=Apple 推送及相关网络基础设施直连模块，提升大陆网络环境下 APNs、iMessage、FaceTime 等 Apple 基础服务稳定性!
 #!author=OpenAI
 #!homepage=https://support.apple.com/
 #!icon=https://www.apple.com/favicon.ico
