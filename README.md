@@ -1,4 +1,15 @@
-# XS-RulesPlus — Shadowrocket 规则大直男
+# XS-RulesPlus — Shadowrocket 规则大指南
+
+## 加强版分流配置文件
+https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/XS-RulesPlus.conf
+
+## 全场景去广告增强版 v2.2（模块补丁）
+https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/SS-ADBlockRules/SSADBlockRulesPlus2.2.module
+
+## 苹果Apns推送模块
+https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/Apns/Apns.module
+
+---
 
 ## 1、开箱即用的 Shadowrocket 分流配置，导入后添加节点即可使用。
 
