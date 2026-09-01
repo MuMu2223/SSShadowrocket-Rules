@@ -39,7 +39,7 @@ iOS 系统的所有 App（如微信、QQ、网易邮箱等）后台通知均依�
 3. 点击右上角的 **`+`** 号。
 4. 在弹出的输入框中粘贴以下模块 URL 链接并点击 **下载 / 保存**：
 ```text
-https://raw.githubusercontent.com/ttyyss2233/Tool/main/shadowrocket/mokuai/Apns.module
+https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/Apns/Apns.module
 
 ```
 
@@ -64,6 +64,6 @@ https://raw.githubusercontent.com/ttyyss2233/Tool/main/shadowrocket/mokuai/Apns.
 
 * 📄 **主配置文件 (`.conf`)**：`XS-RulesPlus.conf`（负责全局节点路由与基础分流）
 * 🧩 **功能模块 1 (`.module`)**：`Apns.module`（负责苹果推送防延迟与后台省电）
-* 🧩 **功能模块 2 (`.module` / `.conf`)**：`SSADBlockRulesPlus2.2.conf`（负责高强度 App/网页去广告）
+* 🧩 **功能模块 2 (`.module` / `.conf`)**：`SSADBlockRulesPlus2.2.module`（负责高强度 App/网页去广告）
 
 > **📌 内部渲染机制**：小火箭的规则优先权为 **模块 (Module) > 主配置 (Config)**。挂载 `Apns.module` 后，无需修改主配置文件，推送优化规则将自动无缝覆盖并优先执行。
