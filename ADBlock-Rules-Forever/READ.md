@@ -15,9 +15,13 @@
 
 ## 🔗 模块订阅链接
 
-在 Shadowrocket 中添加模块时，请使用以下 URL 链接：
+在 Shadowrocket 中添加模块时，下载一下 URL 链接：
 
 https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/ADBlock-Rules-Forever/ADBlock-Rules.conf
+
+优化版
+
+https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/ADBlock-Rules-Forever/SS-ADBlockRules.conf
 
 
 ```text
@@ -57,3 +61,32 @@ https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/
 本项目规则收集自网络开源去广告列表，仅供个人研究、测试与学习使用。
 
 请勿将本项目用于任何商业用途。
+
+---
+
+优化版补充说明：
+共删除：23 条（含1条重复的 google-analytics.com）域名
+
+影响的功能
+1	ota.pay.mobile.sina.cn	新浪支付
+2	pay.mobile.sina.cn	新浪支付
+3	cm.passport.iqiyi.com	爱奇艺登录
+4	im-x.jd.com	京东IM
+5	hotchat-im.iqiyi.com	爱奇艺聊天
+6	location.ximalaya.com	喜马拉雅定位
+7	static.tieba.baidu.com	百度贴吧静态资源
+8	besc.baidustatic.com	百度静态资源
+9	dup.baidustatic.com	百度静态资源
+10	ubmcmm.baidustatic.com	百度静态资源
+11	ubmcvideo.baidustatic.com	百度静态资源
+12	push.m.youku.com	优酷推送
+13	dev-push.m.youku.com	优酷开发版推送
+14	cloudpush.iqiyi.com	爱奇艺推送
+15	mobilemsg.youku.com	优酷消息
+16	msg.youku.com	优酷消息
+17	newspush.sinajs.cn	新浪新闻推送
+18	google-analytics.com	Google统计（重复2条）
+19	hm.baidu.com	百度统计
+20	zhihu-analytics.zhihu.com	知乎统计
+21	gorgon.youdao.com	有道验证码
+22	impservice.youdao.com	有道图片服务
