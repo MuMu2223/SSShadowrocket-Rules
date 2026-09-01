@@ -20,6 +20,7 @@
 ```text
 https://raw.githubusercontent.com/MuMu2223/SSShadowrocket-Rules/refs/heads/main/ADBlock-Rules-Forever/ADBlock-Rules.conf
 
+---
 
 🛠️ 安装与使用教程
 为了保证分流规则和防泄漏策略正常工作，请严格按照以下步骤将本模块叠加至当前的主配置文件上：
