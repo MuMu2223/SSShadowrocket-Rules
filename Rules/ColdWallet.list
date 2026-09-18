@@ -1,12 +1,26 @@
-# ============================================================
-# Ledger
-# ============================================================
+# Cold Wallet / Self-Custody Wallet Rules
 
-# 官方域名
+# Strategy: PROXY
+
+# 注意：
+
+# 1. 本规则只收录钱包品牌自身及其官方服务域名
+
+# 2. 不把第三方 RPC / DEX / 区块浏览器统一放进本列表
+
+# 3. 实际代理策略由 🔐 ColdWallet 策略组决定
+
+# 4. 默认建议：🚀 节点选择
+
+# =========================================================
+
+# Ledger
+
+# =========================================================
+
 DOMAIN-SUFFIX,ledger.com
 DOMAIN-SUFFIX,ledgerwallet.com
 
-# 核心服务
 DOMAIN,live.ledger.com
 DOMAIN,download.live.ledger.com
 DOMAIN,cdn.live.ledger.com
@@ -16,6 +30,7 @@ DOMAIN,cloud-sync.api.live.ledger.com
 DOMAIN,explorers.api.live.ledger.com
 DOMAIN,countervalues.api.live.ledger.com
 DOMAIN,wallet.api.live.ledger.com
+
 DOMAIN,api.ledger.com
 DOMAIN,api.security.ledger.com
 DOMAIN,status.ledger.com
@@ -25,15 +40,14 @@ DOMAIN,help.ledger.com
 DOMAIN,developers.ledger.com
 DOMAIN,blog.ledger.com
 
+# =========================================================
 
-# ============================================================
 # Tangem
-# ============================================================
 
-# 官方域名
+# =========================================================
+
 DOMAIN-SUFFIX,tangem.com
 
-# 核心服务
 DOMAIN,app.tangem.com
 DOMAIN,wallet.tangem.com
 DOMAIN,checkout.tangem.com
@@ -46,3 +60,103 @@ DOMAIN,verify.tangem.com
 DOMAIN,business.tangem.com
 DOMAIN,cards.tangem.com
 DOMAIN,careers.tangem.com
+
+# =========================================================
+
+# SafePal
+
+# =========================================================
+
+DOMAIN-SUFFIX,safepal.com
+
+# =========================================================
+
+# MetaMask / 小狐狸
+
+# =========================================================
+
+DOMAIN-SUFFIX,metamask.io
+
+# =========================================================
+
+# Rabby
+
+# =========================================================
+
+DOMAIN-SUFFIX,rabby.io
+
+# =========================================================
+
+# Trezor
+
+# =========================================================
+
+DOMAIN-SUFFIX,trezor.io
+
+# =========================================================
+
+# OneKey
+
+# =========================================================
+
+DOMAIN-SUFFIX,onekey.so
+
+# =========================================================
+
+# Keystone
+
+# =========================================================
+
+DOMAIN-SUFFIX,keyst.one
+
+# =========================================================
+
+# BitBox
+
+# =========================================================
+
+DOMAIN-SUFFIX,bitbox.swiss
+DOMAIN-SUFFIX,shiftcrypto.support
+
+# =========================================================
+
+# CoolWallet
+
+# =========================================================
+
+DOMAIN-SUFFIX,coolwallet.io
+
+# =========================================================
+
+# ELLIPAL
+
+# =========================================================
+
+DOMAIN-SUFFIX,ellipal.com
+
+# =========================================================
+
+# Exodus
+
+# =========================================================
+
+DOMAIN-SUFFIX,exodus.com
+DOMAIN-SUFFIX,exodus.io
+DOMAIN-SUFFIX,a.exodus.io
+
+# =========================================================
+
+# Trust Wallet
+
+# =========================================================
+
+DOMAIN-SUFFIX,trustwallet.com
+DOMAIN,link.trustwallet.com
+
+# =========================================================
+
+# Phantom
+
+# =========================================================
+
+DOMAIN-SUFFIX,phantom.com
