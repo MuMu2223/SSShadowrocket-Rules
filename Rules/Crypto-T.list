@@ -1,0 +1,48 @@
+# ============================================================
+# Ledger
+# ============================================================
+
+# 官方域名
+DOMAIN-SUFFIX,ledger.com
+DOMAIN-SUFFIX,ledgerwallet.com
+
+# 核心服务
+DOMAIN,live.ledger.com
+DOMAIN,download.live.ledger.com
+DOMAIN,cdn.live.ledger.com
+DOMAIN,api.live.ledger.com
+DOMAIN,eth-dapps.api.live.ledger.com
+DOMAIN,cloud-sync.api.live.ledger.com
+DOMAIN,explorers.api.live.ledger.com
+DOMAIN,countervalues.api.live.ledger.com
+DOMAIN,wallet.api.live.ledger.com
+DOMAIN,api.ledger.com
+DOMAIN,api.security.ledger.com
+DOMAIN,status.ledger.com
+DOMAIN,shop.ledger.com
+DOMAIN,support.ledger.com
+DOMAIN,help.ledger.com
+DOMAIN,developers.ledger.com
+DOMAIN,blog.ledger.com
+
+
+# ============================================================
+# Tangem
+# ============================================================
+
+# 官方域名
+DOMAIN-SUFFIX,tangem.com
+
+# 核心服务
+DOMAIN,app.tangem.com
+DOMAIN,wallet.tangem.com
+DOMAIN,checkout.tangem.com
+DOMAIN,checkout-api.tangem.com
+DOMAIN,checkout2.tangem.com
+DOMAIN,checkout3.tangem.com
+DOMAIN,promo.tangem.com
+DOMAIN,cms.tangem.com
+DOMAIN,verify.tangem.com
+DOMAIN,business.tangem.com
+DOMAIN,cards.tangem.com
+DOMAIN,careers.tangem.com
